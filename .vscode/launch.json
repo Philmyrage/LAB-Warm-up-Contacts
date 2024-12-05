@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": 
+    [
+        {
+            "name": "Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "preLaunchTask": "C/C++: cl.exe build active file",
+        }
+    ]
+}
